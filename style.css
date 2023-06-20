@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;500;700;900&display=swap");
+/* ===========google fonts================= */
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;500;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+/* ========Section 1============== */
+.container {
+  position: relative;
+}
+.img-one,
+.img-three {
+  width: 200px;
+  height: 400px;
+}
+.img-three {
+  position: absolute;
+  right: 30px;
+  bottom: 40px;
+  z-index: -3;
+}
+.img-two {
+  position: absolute;
+  width: 180px;
+  height: 380px;
+  left: 10px;
+  top: 10px;
+}
+/* ==============Section 2===================== */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(178, 177, 177);
+  width: 330px;
+  align-items: center;
+}
+.form-container h1 {
+    font-family: 'Vesper Libre', serif;
+  font-size: 35px;
+  padding: 30px 0;
+}
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form-container form input {
+  width: 300px;
+  height: 30px;
+  padding-left: 20px;
+  font-size: 18px;
+  outline: none;
+  border: 0.5px solid rgb(217, 216, 216);
+}
+.form-btn {
+  width: 320px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgb(87, 87, 252);
+  color: white;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.form-btn:hover {
+  transition: all 0.4s;
+  transform: scale(1.02);
+}
+.line-wrapper {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.line {
+  width: 100px;
+  height: 2px;
+  background-color: rgb(223, 221, 221);
+}
+.icon-wrapper {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.support-link {
+  font-size: 10px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: rgb(179, 178, 178);
+}
+.sign-wrapper {
+  margin-top: 40px;
+  width: 350px;
+  height: 50px;
+  border: 1px solid rgb(196, 194, 194);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
